@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial Seguro</title>
+    <link rel="stylesheet" href="../PROJETO WEB/css/estilo.css">
+</head>
+<body>
+    <!--banner e menu-->
+    <div class="banner">
+        <div class="container">
+            <div class="menu">
+             <ul>
+                 <li><a class="mn" href="../PROJETO WEB/index.html">página inicial</a></li>
+                 <li><a class="mn" href="../PROJETO WEB/pagina quem somos.html">o que nós somos</a></li>
+                 <li><a class="mn" href="../PROJETO WEB/pagina contato.html"><img src="../PROJETO WEB/img/contato.png"  height="20px" width="20px" alt="">&ensp;contato</a></li>
+                 <li class="ativo"><a class="mn" href="login.php"><img class="espaco" src="../PROJETO WEB/img/loguin.png" height="20px" width="20px" alt="">&ensp;login</a></li>
+             </ul>
+            </div>
+
+        </div>
+
+        <!--Descrição no banner-->
+        <div class="container2">
+            <div class="texto">
+                <h1 id="espaco">Seu Seguro aqui</h1>
+                <P id="textobanner">E conte com uma equipe pronta para te ajudar :)</P>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Principal-->
+    <div class="descrição">
+        <h1>O QUE É O SEGURO?</h1>
+        <p class="paragrafos"> Seguro é um instrumento de proteção contra risco de perda financeira. O Seguro é um contrato envolvendo duas ou mais partes em que uma age como segurador, com o dever de indenizar a outra, o segurado, em caso de ocorrência de um evento determinado sinistro.</p>
+    </div>
+    <div class="container3">
+        <a class="link" href="../PROJETO WEB/pagina auto.html">
+            <div id="carro">
+                <img src="../PROJETO WEB/img/iconcar.png" height="100px" width="100px" alt="">
+                <h2>SEGURO DE AUTO</h2>
+                <p></p>
+
+            </div>
+        </a>
+        <a class="link" href="../PROJETO WEB/pagina residencial.html">
+            <div id="residencial">
+                <img src="../PROJETO WEB/img/iconcasa.png" height="100px" width="100px" alt="">
+                <h2>SEGURO RESIDENCIAL</h2>
+
+            </div>
+        </a>
+        <a class="link" href="../PROJETO WEB/pagina vida.html">
+            <div id="vida">
+               <img src="../PROJETO WEB/img/iconfamilia.png" height="100px" width="100px" alt="">
+               <h2>SEGURO DE VIDA</h2>
+
+            </div>
+        </a>
+    </div>
+
+
+    <!--formulario-->
+    <div class="formulario">
+        <h1 id="cota">FAÇA SUA COTAÇÃO</h1>
+        <p >Iremos entrar em contato</p>
+        <form action="php/salvar.php" method="POST">
+            <input class="form1" type="text" name="nome" placeholder="nome" required><br>
+            <input class="form1" type="text" name="sexo" placeholder="sexo" required><br>
+            <input class="form1" type="email" name="email" placeholder="email" required><br>
+            <input class="form1" type="tel" name="telefone" placeholder="telefone" required><br>
+            <input class="form1" type="tel" name="whats" placeholder="whatsapp" required><br>
+            <input  class="button" type="submit" value="Enviar">
+        </form>
+
+
+    </div>
+    
+
+    <!--div espaço-->
+    <div id="descliente1">
+    </div>
+    <hr>
+    <!--cliente-->
+    <div class="container4">
+        <a class="linkcliente" href="https://www.facebook.com/xikinhow.santos/">
+           <div class="cliente">
+              <img class="editarimg" src="../PROJETO WEB/img/PROJETO IMG.jpg" height="100px" width="100px" alt="">
+                <p>&ensp;Desenvolvedor web: Francisco santos <br>
+                    &ensp;facebook: Francisco santos <br>
+                    &ensp;Email: Francisco@gmail.com
+                </p>
+           </div>
+        </a>
+        <a class="linkcliente" href="https://www.facebook.com/kazukioutiago ">
+           <div class="cliente">
+              <img class="editarimg" src="../PROJETO WEB/img/imagem2.jpg" height="100px" width="100px" alt="">
+                <p> &ensp;Desenvolvedor web: Tiago Silva de Souza <br>
+                    &ensp;facebook: Thiago Silva <br>
+                    &ensp;Email: thiago__santos@hotmail.com
+                </p>
+           </div>
+        </a>
+
+        <a class="linkcliente" href="">
+            <div class="cliente">
+               <img class="editarimg" src="../PROJETO WEB/img/facebook.png" height="100px" width="100px" alt="">
+               <p> &ensp;Desenvolvedor web:  <br>
+                &ensp;facebook:<br>
+                &ensp;Email:
+            </p>
+            </div>
+         </a>
+    </div>
+    <hr>
+    <!--Div espaço-->
+     <div id="descliente2" >
+    </div>
+
+    <!--footer-->
+
+
+    <div class="rodape">
+        <ul>
+            <li><a class="footer" href="https://www.facebook.com/"><img src="../PROJETO WEB/img/facebook.png" height="50px" width="50px" alt=""></a></li>
+            <li><a class="footer" href="https://twitter.com/"><img src="../PROJETO WEB/img/twitter.png" height="50px" width="50px" alt=""></a></li>
+            <li><a class="footer" href="https://www.instagram.com/"><img src="../PROJETO WEB/img/instagran.png" height="50px" width="50px" alt=""></a></li>
+
+    </div>
+    
+</body>
+</html>

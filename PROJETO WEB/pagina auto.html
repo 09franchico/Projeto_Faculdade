@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pagina Auto</title>
+    <link rel="stylesheet" href="../PROJETO WEB/css/estilo.css">
+</head>
+<body>
+    <!--banner e menu-->
+    <div class="bannercar">
+        <div class="container">
+            <div class="menu">
+             <ul>
+                 <li><a class="mn" href="../PROJETO WEB/index.html">página inicial</a></li>
+                 <li><a class="mn" href="../PROJETO WEB/pagina quem somos.html">o que nós somos</a></li>
+                 <li><a class="mn" href="../PROJETO WEB/pagina contato.html"><img src="../PROJETO WEB/img/contato.png"  height="20px" width="20px" alt="">&ensp;contato</a></li>
+                 <li class="ativo"><a class="mn" href="../PROJETO WEB/login.php"><img class="espaco" src="../PROJETO WEB/img/loguin.png" height="20px" width="20px" alt="">&ensp;login</a></li>
+             </ul>
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="texto">
+            </div>
+        </div>
+    </div>
+    <!--Descrição auto-->
+    <div id="descricaoauto">
+        <h3>SEGURO AUTO</h3>
+       <P class="paragrafos">Seguro Automóvel Manaus
+        Nós te ajudamos com atendimento em Seguro Auto Manaus, com suporte que vai desde a cotação do seguro até o ocorrência de sinistro em Manaus. Seguro automóvel barato em Manaus é na assegurou. Preencha o formulário abaixo que iremos entrar em contato com você.
+        
+        Verificamos várias seguradoras para achar o seguro ideal para o seu veículo em Manaus.</P>
+        <hr>
+        <!--Formulario-->
+        <div class="form2">
+            <form action="php/salvarSeguro.php" method="POST">
+                <fieldset>
+                    <legend>INSIRA SEUS DADOS</legend>
+                   <input id="name" type="text" name="nome" placeholder="nome" required>
+                   <input type="radio" name="sexo" value="Masculino" required/><label>Masculino</label>
+                   <input type="radio" name="sexo" value="Feminino" required /><label>Feminino</label>
+                   <input id="email" type="email" name="email" placeholder="email" required>
+                   <input id="telefone" type="tel" name="telefone" placeholder="telefone" required>
+                   <input id="whats" type="tel" name="whats" placeholder="whatsapp" required ><br>
+                   <input id="orcamento" type="text" name="orcamento" placeholder="Orçamento" required>
+                   TIPO SEGURO:<input id="ramo" type="text" name="ramo" value="SEGURO AUTO" readonly required>
+                   DATA:<input id="data" type="date" name="data" required ><br>
+                   <input class="button2" type="submit" value="Enviar">
+               </fieldset>
+            </form>
+        </div>
+    </div>
+
+    
+
+    </div>
+    <!--footer-->
+    <div class="rodape">
+        <ul>
+            <li><a class="footer" href="https://www.facebook.com/"><img src="../PROJETO WEB/img/facebook.png" height="50px" width="50px" alt=""></a></li>
+            <li><a class="footer" href="https://twitter.com/"><img src="../PROJETO WEB/img/twitter.png" height="50px" width="50px" alt=""></a></li>
+            <li><a class="footer" href="https://www.instagram.com/"><img src="../PROJETO WEB/img/instagran.png" height="50px" width="50px" alt=""></a></li>
+
+    </div>
+    
+</body>
+</html>

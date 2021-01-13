@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*cabecalho*/
+
+.cabecalho{
+    height: 200px;
+    background-color: rgb(15, 14, 15);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    margin: 5px;
+    color: white;
+    
+}
+.containerpainel{
+    border: solid 2px;
+    display: flex;
+    border-top-width: 3px;
+    border-top-color: white;
+
+}
+
+.sair{
+    background-color:rgb(201, 192, 192);
+    color: rgb(14, 14, 15);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.sair:hover{
+    background-color: white;
+}
+
+
+/*menu*/
+
+.lista{
+    width: 100%;
+    background-color:rgb(20, 19, 19);
+    height: 55px;
+    text-align: center;
+
+}
+ul{
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+li{
+    margin-right: 20px;
+    border: solid 1px rgb(5, 63, 221);
+    background-color: rgb(230, 201, 73);
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    width: 200px;
+}
+li:hover{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    background-color: white;
+}
+
+
+/*filtro*/
+
+.formfiltro{
+    text-align: right;
+
+}
+.filtro{
+    height: 25px;
+    width: 300px;
+}
+.buttonfiltro{
+    height: 33px;
+    width: 100px;
+    background-color: rgb(210, 245, 82);
+    margin-right: 20px;
+}
+
+
+
+/*dados*/
+
+article{
+    padding-left: 20px;
+}
+
+nome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+
+.apagar{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*tabela*/
+table{
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(236, 234, 232);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(31, 142, 245);
+    font-size: 18px;
+}
+.codigo{
+    width: 20px;
+}
+.nome{
+    width: 300px;
+}
+.email{
+    width: 300px;
+}
+
+
+
+
+#seguradora{
+    color: black;
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    height: 0px;
+}
+
+.registro{
+    color: black;
+}
+
+input{
+    margin: 10px;
+    height: 20px;
+    width: 150px;
+    margin-top: 20px;
+}
+form{
+    margin-top: 20px;
+}
+fieldset{
+    background-color: rgb(194, 192, 191);
+    height: 600px;
+    margin-right: 800px;
+}
